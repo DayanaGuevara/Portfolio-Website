@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dayana's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap">
+    </head>
+
+    <body>
+        <div>
+
+<!--navigation bar-->
+          <div class="topnav w3-sand" id="myTopnav" style="font-family: futura;">
+              <a href="index.html" class="active">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Work
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="icons.html">Icon Project</a>
+                  <a href="posters.html">John Maeda Posters</a>
+                  <a href="booklet.html">Heroes Booklet</a>
+                  <a href="campaign.html">Social Media Campaign</a>
+                </div>
+              </div>
+              <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+
+<!--form section-->
+            <div>
+              <section class="w3-container w3-brand w3-center header">
+                <h1 style="color: #f3ede1;"> CONTACT ME</h1>
+              </section>
+            </div>
+
+
+            <div class=" w3-container w3-center w3-sand fcf-body" style="padding: 70px;">
+                <div id="fcf-form">
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://formsubmit.co/1eb5e7d5373051245f18e38f44269b0a">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label"><p>Your name</p></label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label"><p>Your email address</p></label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label"><p>Your message</p></label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group" style="padding-top: 50px;">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block w3-brand"><p>Send Message</p></button>
+                    </div>
+                </form>
+                </div>
+            </div>
+<!--footer section -->
+            <footer class="w3-container w3-sand w3-center">
+              <p>&copy; Dayana Guevara 2024</p>
+            </footer>
+        </div>
+    </body>
+</html>
